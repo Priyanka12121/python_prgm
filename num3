@@ -1,0 +1,7 @@
+a=int(input("enter a no "))
+b=int(a%10)
+if b%2==0:
+    l1=b**2
+else:
+    l1=b**3
+print(l1)

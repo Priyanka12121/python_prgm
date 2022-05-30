@@ -1,0 +1,18 @@
+#f1=open('test.txt','w')
+#f1.write('hi world ')
+#f1.writelines('how are you')
+#f1.close()
+#f1=open('test.txt','r')
+#print(f1.read())
+#f1.close()
+
+
+f1=open('test.txt','r')
+print(f1.read())
+f1.close()
+f1=open('test.txt','a')
+f1.write(' hi everyone ')
+f1.close()
+f1=open('test.txt','r')
+print(f1.read)
+f1.close()
